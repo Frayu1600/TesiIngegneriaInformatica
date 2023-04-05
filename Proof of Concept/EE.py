@@ -1,3 +1,4 @@
+# algoritmo di euclide esteso
 # risolve l'identità di Bézout ax + by = gcd(a,b) 
 # ritorna gcd(a,b), x, y
 def EE(a: int, b: int):
@@ -12,14 +13,14 @@ def EE(a: int, b: int):
     #print(dxy)
     return dxy 
     
-a = 3
-b = 7
-
 # si usa anche per risolvere x = a^-1 mod b, ove a e b sono coprimi 
 # il secondo parametro che torna EE è l'inverso, poichè
 # x: ax equiv 1 mod b --> ax = bz + 1 ---> ax - bz = 1 ---> ax + by = 1 = gcd(a,b) (posto -z = y)  
 # quindi il secondo parametro di EE torna l'inverso moltiplicativo
 # l'algoritmo EE è in totale O(n^3) ove n è la dimensione dell'istanza di input (come Euclide)
+
+a = 3
+b = 7
 
 def main():
     print(f'calcolo {a}x + {b}y = gcd(a, b)...')

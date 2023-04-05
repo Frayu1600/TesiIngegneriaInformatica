@@ -4,27 +4,29 @@ import point
 import prime_elliptic_curve
 
 class EC_DRBG:
-    def __init__(self, P: point.point, Q: point.point, pec: prime_elliptic_curve.prime_elliptic_curve):
-        self.current_state = secrets.randbits(128)
+    def __init__(self, P: point.point, Q: point.point, prime_elliptic_curve: prime_elliptic_curve.prime_elliptic_curve, seed = secrets.randbits(128)):
+        self.__current_state = seed
         self.P = P
         self.Q = Q
-        self.pec = pec
+        self.prime_elliptic_curve = prime_elliptic_curve
 
     # rimuove i 16 bit più significativi da x 
     def __phi(self, x):
-        #print(len((bin(x)[2:].zfill(256)[16:])))
-
-        # NOTA: 256 dipende dall'ordine della curva
-        return bin(x)[2:].zfill(self.pec.keysize)[16:]
+        # notare che l'output dipende dalla grandezza della curva
+        return bin(x)[2:].zfill(self.prime_elliptic_curve.keysize)[16:]
     
-    # genera 240 bit pseudocasuali per iterazione
+    # genera (self.prime_elliptic_curve.keysize - 16) bit pseudocasuali per iterazione
     def generate_bits(self, iterations = 1):
         output = ''
 
         for _ in range(iterations):
-            next_state = raddoppi_ripetuti.raddoppi_ripetuti(self.P, self.current_state, self.pec.a, self.pec.b, self.pec.p).x
-            self.current_state = next_state
-            bits = self.__phi(raddoppi_ripetuti.raddoppi_ripetuti(self.Q, next_state, self.pec.a, self.pec.b, self.pec.p).x)
+            # calcolo stato successivo
+            next_state = raddoppi_ripetuti.raddoppi_ripetuti(self.P, self.__current_state, self.prime_elliptic_curve).x
+            # aggiornamento stato successivo
+            self.__current_state = next_state
+            # generazione bit
+            bits = self.__phi(raddoppi_ripetuti.raddoppi_ripetuti(self.Q, next_state, self.prime_elliptic_curve).x)
+            # concatenazione
             output += bits
 
         return output
