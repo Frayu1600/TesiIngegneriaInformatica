@@ -1,10 +1,8 @@
-import raddoppi_ripetuti
+from utils import point, prime_elliptic_curve, raddoppi_ripetuti
 import secrets # libreria per la casualità, crittograficamente sicura
-import point 
-import prime_elliptic_curve
 
 class EC_DRBG:
-    def __init__(self, P: point.point, Q: point.point, prime_elliptic_curve: prime_elliptic_curve.prime_elliptic_curve, seed = secrets.randbits(128)):
+    def __init__(self, P: point, Q: point, prime_elliptic_curve: prime_elliptic_curve, seed = secrets.randbits(128)):
         self.__current_state = seed
         self.P = P
         self.Q = Q
@@ -21,11 +19,11 @@ class EC_DRBG:
 
         for _ in range(iterations):
             # calcolo stato successivo
-            next_state = raddoppi_ripetuti.raddoppi_ripetuti(self.P, self.__current_state, self.prime_elliptic_curve).x
+            next_state = raddoppi_ripetuti(self.P, self.__current_state, self.prime_elliptic_curve).x
             # aggiornamento stato successivo
             self.__current_state = next_state
             # generazione bit
-            bits = self.__phi(raddoppi_ripetuti.raddoppi_ripetuti(self.Q, next_state, self.prime_elliptic_curve).x)
+            bits = self.__phi(raddoppi_ripetuti(self.Q, next_state, self.prime_elliptic_curve).x)
             # concatenazione
             output += bits
 
