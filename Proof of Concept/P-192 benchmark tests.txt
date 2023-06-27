@@ -1,0 +1,81 @@
+ 
+
+Trovato lo stato successivo in 62.4 secondi!
+> s[i+1] = 0xfca919e3773c66205213c54296344b0ca049e4bcfaa9be23
+> R = (0x2336c7abed7ab5481c077b63a2c244f4587dad02624371da, 0xd8886bc5493d14348918f4766536bbd8e6fea1d4371da5aa)
+
+Trovato lo stato successivo in 274.71 secondi!
+> s[i+1] = 0xb09922e88d45befffdc9301df9d484b4076fcf594ebb95ec
+> R = (0xa967fd5a5a19f0dbd0227dcbb641622fa6b7109adaa60b7e, 0xb9ad554db69d87c23c1803aec714ed58bf21517a1bc743fb)
+
+Trovato lo stato successivo in 166.16 secondi!
+> s[i+1] = 0x8fe9f848c5e578197e41f73e5f60236cf1368e62913c7356
+> R = (0x641bd69b5269eded27a94d1e04ee79526cf16bbdff0aaa42, 0x3387251d48fff7ecab3a99bf0b0b281233f2e17cf2c30567)
+
+Trovato lo stato successivo in 24.61 secondi!
+> s[i+1] = 0x63716788301b54ef78fb60919358c222c951edd40741d01c
+> R = (0xb3ecb752d2ac5600b99e504f6ed9040deebc5b1ae1bf1b4, 0x981a8b2a493656363ed3ae74479d981a551b0795dfdb896e)
+
+Trovato lo stato successivo in 323.28 secondi!
+> s[i+1] = 0x574cc36a8cc3ae79e0cd4c4a76597e7aea341daaeb11a566
+> R = (0xc7d47b319a1e04590ae18c45b264505043a60622ef0b5b15, 0xf6d9863b7c934f2656dff868e792955e1e0f2985bb2fa885)
+
+Trovato lo stato successivo in 361.94 secondi!
+> s[i+1] = 0x659285f953b13812eb52dd4c03c4e056f64bdd5a7148bf97
+> R = (0xde9b65ef66cafa79a236417d29bc2aee0cbfac7c9fb32433, 0xd4d6cc71f768e463105be4c59c96094b90dc7c91faff7e8d)
+
+Trovato lo stato successivo in 85.84 secondi!
+> s[i+1] = 0x2005758269abe067decf1650a42df7d5f982dd3dbfeb60a7
+> R = (0x2f958b91f180f72be7da2fc88d22cfb2e8e0acd4c2d4debd, 0x63ecb485975bf824785f09ccdd4e092554504848a3ff83ae)
+
+Trovato lo stato successivo in 131.95 secondi!
+> s[i+1] = 0x4dac79a8c42f42e0114ffba1192411f28dba9dff8fd0963b
+> R = (0x4d97df864495c58052797bc2514c4aa168081ed39e551332, 0x5c8a9de539e84c935345044a4f9961f51d062e6575d16999)
+
+Trovato lo stato successivo in 77.6 secondi!
+> s[i+1] = 0x575bd2f1b126505cc9521d7bd161d9d90936aecfc419249d
+> R = (0x2c48f5d7363e51edb48165346db1a5ddaec17317b3700cb0, 0xb8d2fa4f5acc72364b007859d2dc4a4209a08b8385a479b9)
+
+Trovato lo stato successivo in 122.64 secondi!
+> s[i+1] = 0xb888cd9ee701189b45e244de9aa72a0cb1eb6c470c34620c
+> R = (0x48db7677a10a606434ff779efc416363bc727f43b1e5e162, 0x8d73af9e9e8a401c0fa6e291929a8abdb09bdb9f23fc9f1d)
+
+Trovato lo stato successivo in 178.36 secondi!
+> s[i+1] = 0x75ba57d50c149a637a748f6c9801e8694b21e54711df604
+> R = (0x6c59b0f13a0971448b4939c2c9e3cf4cb4d2c1a3f147fa3a, 0xdc4cf5c23e877af5ff555e013f354d4808f13ca2ae35ff75)
+
+Trovato lo stato successivo in 144.68 secondi!
+> s[i+1] = 0x956c6f24398e18b4f73a5a1609886f3341c861c133c6db30
+> R = (0x571a17867993593dccb8eeb9559e3a1ebd46c15749bfe755, 0x69de06bc685ede46761744cd34295ceea9a6eb5634f67f6a)
+
+Trovato lo stato successivo in 20.72 secondi!
+> s[i+1] = 0xa7abffff8463f50c6981ac98bcc4f60efc85cce1969359ff
+> R = (0x88ec55e3ce3e93dfa9e1d9f48632c43882b6646511536e4, 0x27955085fd2ea9c22b2ce49f2b2f9bdd0b9680a115cc2e77)
+
+Trovato lo stato successivo in 63.58 secondi!
+> s[i+1] = 0x4d652ac2b01c1ca7f72e9bc7f716226571c46b15aec60f3f
+> R = (0x2355a19ef887ecc123388c051e7be7c40229bbfc68e607d3, 0xf0c5986e98671e624e08c9743d00550a926fd08b09debb)
+
+Trovato lo stato successivo in 85.14 secondi!
+> s[i+1] = 0xffc58bfd34922d4f52089a666e68faaa967d837bfac5f88d
+> R = (0x3185b505e9fef1e0b6649ff9ddd07da15807d40e5105376d, 0xdcfe0a5c2928407c160f9f3636194dd73accd7136f95e419)
+
+Trovato lo stato successivo in 406.25 secondi!
+> s[i+1] = 0x250087dc407727aa17087abb787ce5c432f1fc6fedf716fc
+> R = (0xfe39fe5a67f77cd3d7113ca2ce758fe94c7c08f0cdb8d621, 0x2cb4de618e4c62ab0b9713d7db0eb7d89742bcb57f30dce6)
+
+Trovato lo stato successivo in 203.89 secondi!
+> s[i+1] = 0x8153e204040189e57bda7f3aa047f628e3cb461cdad11754
+> R = (0x7aa28899142c370ee9e3f26c1dcce9b8092d4c97c9e5ed0e, 0xc259076f735b62b52b0e0ea9d117e88d0f3727301558ed0e)
+
+Trovato lo stato successivo in 69.1 secondi!
+> s[i+1] = 0xbe2ebe5ab33fb32c2e6b85f52ed84f538ffe6c5923e22fc1
+> R = (0x26d79f7164e1bd19b98c17c3bd783b90a3749de91c428221, 0xae4524b8c4a6eca1241280fc8bdf516d2944abc5e62ff116)
+
+Trovato lo stato successivo in 22.08 secondi!
+> s[i+1] = 0x69783d095fc10181f300b322014a41cc103e8e5ab4f7a9be
+> R = (0x93dd7be31a25c10bf0e9ff1955be9f3fae2610d5dd8d86b, 0xa02e536dbaea21194c091f00b8999262190a47399086b797)
+
+Trovato lo stato successivo in 334.95 secondi!
+> s[i+1] = 0xc1f8d9498d73f504a18ea89a34271e57a32a0b39f15dda54
+> R = (0xce708e37d578c6ace4bc54c7d2374f3affb3e97cbb843ba7, 0x6ab0d51b7879a289a942e10eb963a00f07209ac58ed8f304)
