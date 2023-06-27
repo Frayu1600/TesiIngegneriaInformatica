@@ -1,5 +1,5 @@
 from utils import point, prime_elliptic_curve, raddoppi_ripetuti
-import secrets # libreria per la casualità, crittograficamente sicura
+import secrets # libreria per la casualita', crittograficamente sicura
 
 class EC_DRBG:
     def __init__(self, P: point, Q: point, prime_elliptic_curve: prime_elliptic_curve, seed = secrets.randbits(128)):
@@ -8,7 +8,7 @@ class EC_DRBG:
         self.Q = Q
         self.prime_elliptic_curve = prime_elliptic_curve
 
-    # rimuove i 16 bit più significativi da x 
+    # rimuove i 16 bit piu' significativi da x 
     def __phi(self, x):
         # notare che l'output dipende dalla grandezza della curva
         return bin(x)[2:].zfill(self.prime_elliptic_curve.keysize)[16:]
